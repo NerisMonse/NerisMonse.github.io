@@ -1,0 +1,42 @@
+main{
+  display: flex;
+  flex-direction: row;
+  flex: auto;
+}
+
+body{
+  display: flex;
+  flex-direction: column;
+}
+
+article{
+  flex: 2;
+  overflow-y: auto;
+}
+
+aside{
+  flex: 1;
+  overflow-y: auto;
+}
+
+html{
+  background-color:#E9EFC0
+}
+
+p, h1, h2, h3{
+  color:#1C0A00
+}
+
+header{
+  background-color: #CBE2B0
+}
+
+aside{
+  background-color:#F4FCD9
+}
+
+img{
+  display: block;
+  justify-content: center;
+  width: 50%;
+}
